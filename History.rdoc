@@ -1,3 +1,12 @@
+== 2.0 / YYYY-MM-DD
+
+* Actually plugged in the data_version for the MIME::Types list.
+* Added a build-time mechanism to export the data to separate files, mostly as
+  a tool to design the new data format, but it will also be an excellent tool
+  for being able to update the data moving forward.
+* PLANNED: Make it so that the data files are not "executable" code.
+* PLANNED: Move the import mechanism to a method or methods on the Types class.
+
 == 1.24 / 2013-08-14
 
 * Code Climate:
